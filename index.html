@@ -10,17 +10,43 @@
 $(document).ready(function(){
 	
 	$(".simple_demo").favicon();
+	
+	$(".full_demo").favicon({
+		position: "right top",
+		repeat: "repeat-y",
+		padding: "0px 20px 0px 0px",
+		domainsource: "data-domain",
+		addclass: "extra_class"
+	});
 });
 </script>
+
+<style>
+	.extra_class{
+		width: 100px;
+		height: 32px;
+		margin-bottom: 20px;
+		line-height: 32px;
+		text-align: center;
+		border: 1px solid #ccc;
+	}
+</style>
 
 </head>
 <body>
 
-	<a class='simple_demo' href='http://binga.hu/' >Binga</a> 
-	
-	<br />
-	
+
+	<h3>Egyszerű demo</h3>
+
+	<a class='simple_demo' href='http://binga.hu/' >Binga</a> <br />
 	<a class='simple_demo' href='http://google.hu/' >Google</a>
 
+
+	<h3>Teljes demo</h3>
+	
+	<div class='full_demo' data-domain='binga.hu' >Binga</div>
+	<div class='full_demo' data-domain='google.hu' >Google</div>
+	
+	
 </body>
 </html>
