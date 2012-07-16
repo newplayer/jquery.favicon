@@ -21,3 +21,11 @@ Annak az atributomnak a neve, amiben a lekérdezendő domain név található
 
 ### addclass
 Ha szükséges akkor hozzá lehet az adott elemhez fűzni még egy osztályt
+
+
+Használat
+---------
+
+<
+$(".simple_demo").favicon();
+>
