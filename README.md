@@ -26,6 +26,6 @@ Ha szükséges akkor hozzá lehet az adott elemhez fűzni még egy osztályt
 Használat
 ---------
 
-<
+<code>
 $(".simple_demo").favicon();
->
+</code>
