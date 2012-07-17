@@ -1,7 +1,16 @@
 /**
- * @author NewPlayer
+ * jQuery.Favicon
+ * Egy egyszerű jQuery plugin, faviconok lekérdezésére.
+ * https://github.com/newplayer/jquery.favicon
  * 
- * based on: http://css-tricks.com/favicons-next-to-external-links/
+ * @version 1.0
+ * 
+ * 
+ * @author NewPlayer
+ * @link https://github.com/newplayer/jquery.favicon
+ * 
+ * 
+ * credits: http://css-tricks.com/favicons-next-to-external-links/
  * 
  */
 
