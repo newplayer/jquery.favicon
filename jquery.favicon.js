@@ -31,7 +31,7 @@
 		var domain = "";
 		
 		// végigszaladunk az elemeken
-		this.each(function() {
+		return this.each(function() {
 			
 			// megnézzük, hogy hozzá kell-e adni valamilyen osztályt az elemhez
 			if ( settings.addclass != '' ){
